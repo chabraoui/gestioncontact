@@ -1,0 +1,26 @@
+<!--<h1>aaaa</h1>
+
+<ul>
+  <input type="text" (keyup.enter)="add(data)" #data>
+  <li *ngFor="let cour of cours | async">
+
+    {{cour.key}} : {{cour}}
+
+   
+    <button (click)="update(cour.key, data.value)">Update</button>
+    <button (click)="delete(cour.key)">Delete</button>
+  </li>
+</ul> -->
+<nav class="navbar navbar-dark bg-danger">
+  <span class="navbar-brand mb-0 h1 mx-auto">Application De Gestion Des Contacts</span>
+</nav>
+<br>
+
+<div class="container">
+  <app-addcontact></app-addcontact>
+<br>
+<br>
+  <app-listcontact></app-listcontact>
+</div>
+
+

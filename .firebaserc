@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "applicationcontact-7da34": {
+      "hosting": {
+        "angularfr": [
+          "applicationcontact-7da34"
+        ]
+      }
+    }
+  }
+}
